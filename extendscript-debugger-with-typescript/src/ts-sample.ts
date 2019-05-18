@@ -1,7 +1,5 @@
 /// <reference types="types-for-adobe/Photoshop/2015.5" />
 
-import "extendscript-es5-shim-ts";
-
 class Main {
     static getName() {
         return app.name;
@@ -15,7 +13,6 @@ class Main {
 alert(Main.getName());
 alert(Main.getVersion());
 
-var array = [0, 1, 2, 3];
-array.forEach(element => {
-    alert(`${element}`);
-});
+for (i of [1, 2, 3]) {
+    alert(String(i));
+}
