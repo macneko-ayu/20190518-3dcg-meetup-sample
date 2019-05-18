@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+        
+<link rel="stylesheet" href="css/topcoat-desktop-dark.min.css"/>
+<link  id="hostStyle" rel="stylesheet" href="css/styles.css"/>
+
+<title></title>
+</head>
+
+<body class="hostElt">
+
+    <div id="content">
+        <div class="content-child">
+            <span class='label'>GitHubのユーザーIDを入力してください</span>
+            <input id="input-user-id" type="text">
+        </div>
+
+        <div class="content-child">
+                <span class='label'>検索キーワードを入力してください。<br />※正規表現も利用できます</span>
+                <input id="input-search-keyword" type="text">
+        </div>
+
+        <div class="content-child">
+            <button id="btn-excute" class="topcoat-button--large hostFontSize">実行する</button>                
+        </div> 
+    </div>
+    
+    <!-- These are debugging shortcuts.  Class debuglink items only appear in debug mode  -->
+    <button class="debuglink" id="reload">Reload</button>
+    
+    <script src="js/libs/CSInterface.js"></script>
+    <script src="js/libs/jquery-2.0.2.min.js"></script>
+
+    <script src="js/themeManager.js"></script>
+    <script src="js/main.js"></script>
+
+        
+</body>
+</html>

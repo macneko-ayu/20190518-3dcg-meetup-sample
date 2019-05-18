@@ -1,0 +1,29 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "Run Photoshop 2019",
+            "program": "${file}",
+            "stopOnEntry": true,
+            "trace": false,
+            "targetSpecifier": "photoshop-130.064",
+            "engineName": "photoshop2019"
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "Run InDesing 2019",
+            "program": "${file}",
+            "stopOnEntry": true,
+            "trace": false,
+            "targetSpecifier": "indesign-14.064",
+            "engineName": "indesign2019"
+        }
+    ]
+}
