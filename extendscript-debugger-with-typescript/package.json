@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "extendscript-es5-shim-ts": "0.0.1",
     "types-for-adobe": "github:ten-A/types-for-adobe",
     "typescript": "^3.4.5"
   }
